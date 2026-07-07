@@ -1,0 +1,12 @@
+import pandas as pd
+temp=pd.Series([30,32,40,41,45,22,43],index=["sun","mon","tue","wed","thu","fri","sat"])
+print("Week tempreture")
+print(temp)
+print("\n""-------------""\n")
+print("maximum temp",temp.max())
+print("minimum temp",temp.min())
+print("avg temp",temp.mean())
+print("\n""-------------""\n")
+print(temp[temp>30])
+print("\n""-------------""\n")
+print(temp[temp<30])
